@@ -52,7 +52,7 @@ class WPZ_Genesis_Jetpack_Logo {
 
 	function gjl_jetpack_logo() {
 		$user_size = genesis_get_option('gjl_logo_size', 'gjl_genesis_jetpack_logo');
-		$user_size = ( isset($user_size) ? $user_size : 'medium' );
+		$user_size = ( isset($user_size) ? $user_size : 'large' );
 
 		$args = array(
 		    'header-text' => array(
